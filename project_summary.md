@@ -2,12 +2,11 @@
 
 
 ## Authors
-- Main developer:
-  Thomas Sanchez Lengeling.
-- Audio Emmanuel Ontiveros.
-- Audio Programming and Visual Design ￼Rodrigo Guzmán Cázar
-- Technology Adviser Eduardo H Obieta.
-- Multitouch Hardware Gilberto Castro.
+- Main developer: Thomas Sanchez Lengeling.
+- Audio Programming and Visual Design: ￼Rodrigo Guzmán Cázar
+- Audio: Emmanuel Ontiveros.
+- Technology Adviser: Eduardo H Obieta.
+- Multitouch Hardware: Gilberto Castro.
 
 ## Description
 
