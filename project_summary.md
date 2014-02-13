@@ -7,6 +7,7 @@
 - Audio: Emmanuel Ontiveros.
 - Technology Adviser: Eduardo H Obieta.
 - Multitouch Hardware: Gilberto Castro.
+- Illustration Ana Karen G Barajas
 
 ## Description
 
