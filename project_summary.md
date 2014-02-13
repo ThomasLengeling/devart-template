@@ -1,5 +1,5 @@
-# Project Title
-Manifold
+# Manifold
+
 
 ## Authors
 - Main developer Thomas Sanchez Lengeling
