@@ -1,4 +1,5 @@
-# Manifold
+# Project Title
+Manifold
 
 ## Authors
 - Main developer Thomas Sanchez Lengeling
@@ -15,8 +16,8 @@ Prototype of the initial project. The idea is to expand this current idea, to on
 
 http://codigogenerativo.com/aether/
 
-![Example Image](project_images/cover.jpg?raw=true "Example Image")
-
 [Example Link](http://www.google.com "Example Link")
 
-https://vimeo.com/83469677
+![Example Image](project_images/cover.jpg?raw=true "Example Image")
+
+<iframe src="//player.vimeo.com/video/83469677" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/83469677">AETHER / Interactive Audiovisual Installation / Test 01</a> from <a href="http://vimeo.com/user3042658">Gil Castro</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
