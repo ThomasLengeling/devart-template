@@ -18,6 +18,21 @@ http://codigogenerativo.com/aether/
 
 [Example Link](http://www.google.com "Example Link")
 
+## Example Code
+NOTE: Wrap your code blocks or any code citation by using ``` like the example below.
+```
+function test() {
+  console.log("Printing a test");
+}
+```
+## Links to External Libraries
+ NOTE: You can also use this space to link to external libraries or Github repositories you used on your project.
+
+[Example Link](http://www.google.com "Example Link")
+
+## Images & Videos
+NOTE: For additional images you can either use a relative link to an image on this repo or an absolute link to an externally hosted image.
+
 ![Example Image](project_images/cover.jpg?raw=true "Example Image")
 
-<iframe src="//player.vimeo.com/video/83469677" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/83469677">AETHER / Interactive Audiovisual Installation / Test 01</a> from <a href="http://vimeo.com/user3042658">Gil Castro</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+http://www.youtube.com/watch?v=_A_NZCcdDI4
