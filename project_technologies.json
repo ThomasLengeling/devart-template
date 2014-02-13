@@ -9,6 +9,9 @@
         "toolkits": [
             "insert toolkits"
         ]
+        "languages":[
+            "c++"
+        ]
     },
     "themes": [
         "insert themes"
