@@ -16,8 +16,6 @@ Prototype of the initial project. The idea is to expand this current idea, to on
 
 http://codigogenerativo.com/aether/
 
-[Example Link](http://www.google.com "Example Link")
-
 ![Example Image](http://codigogenerativo.com/wp-content/uploads/eather_03.jpg "Interaction")
 
 http://www.youtube.com/watch?v=_A_NZCcdDI4
