@@ -1,15 +1,20 @@
 # Project Title
-Insert the name of your project
+Manifold
 
 ## Authors
-- Insert main author name, surname, github account
-- Insert other author(s) name, surname, github account (one per list element)
+- Main developer Thomas Sanchez Lengeling
+- Audio Emmanuel Ontiveros
+- Multitoiuch Hardware Gilberto Castro.
 
 ## Description
-Insert a description containing about 100 to 150 words, including your motivation and the meaning behind your idea and execution. The Judges will be keen to know how your idea pushes the boundaries of code and technology. 
+
+A series of studies in geometric symmetry, dynamic particles and interactivity on a large format multitouch screen. It explores techniques of manipulating a digital sculpt throughout the interaction of the users.The audience are able to alter the geometry and the physics to transform the representation of objects into different viewpoints. The source for the study are various Nebula images taken from the the Hubble Space Telescope. Those images are exposed into a abstract form which is possible to manipulate in real time with the touch of the users.
 
 ## Link to Prototype
-NOTE: If your project lives online you can add one or more links here. Make sure you have a stable version of your project running before linking it.
+
+Prototype of the initial project. The idea is to expand this current idea, to one that uses a techonogly of goggle.
+
+http://codigogenerativo.com/aether/
 
 [Example Link](http://www.google.com "Example Link")
 
