@@ -2,7 +2,8 @@
 
 
 ## Authors
-- Main developer Thomas Sanchez Lengeling.
+- Main developer:
+  Thomas Sanchez Lengeling.
 - Audio Emmanuel Ontiveros.
 - Audio Programming and Visual Design ￼Rodrigo Guzmán Cázar
 - Technology Adviser Eduardo H Obieta.
