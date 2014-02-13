@@ -1,5 +1,6 @@
-Insert a description to describe your update to document your creative process. The Commissioned Interactive Artists will be doing the same so you can reference their Project Posts.
+First post of the installation Manifold, the main idea is to expand our current project Eather to a more complex one using a google tecnology, in this first post were are going to analyze the posibility of using a google tecnology into our new project.
 
-![Example Image](../project_images/cover.jpg?raw=true "Example Image")
+
+Initial project and test:
 
 http://www.youtube.com/watch?v=_A_NZCcdDI4
