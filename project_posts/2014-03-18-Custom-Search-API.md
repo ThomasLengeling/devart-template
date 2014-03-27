@@ -8,9 +8,9 @@ The project Aether uses the following tecnique. The final outout is a canvas tha
 The idea is to feed the colors of the particles and the triangulated delaunay mesh with still images. This still images come to life with the hand movement of the participants. With the interaction of the users they are able to alter the different viewpoints of the images.
 
 
-![Example Image](particles.png "Particles")
+![Example Image](../project_images/particles.png "Particles")
 
-![Example Image](manifold-triangulation.png "Triangulation")
+![Example Image](../project_images/manifold-triangulation.png "Triangulation")
 
 
 
