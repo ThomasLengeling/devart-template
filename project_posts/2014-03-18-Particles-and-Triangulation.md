@@ -16,7 +16,7 @@ Once having a real time particle system that has interaction forces like repulsi
 
 ![Example Image](../project_images/manifold-triangulation.png "Triangulation")
 
-![Example Image](../project_images/manifold-triangulation.png "Triangulation")
+![Example Image](../project_images/mesh.png "Triangulation")
 
 
 The project Aether uses the following tecnique. The final outoup is a canvas that include calculating the Delaunay triangulation that is applied to varios photographic still images thar creates an abstruct sculpt of a 2D mesh. The points obtain from the Delaunay triangulation are feed into a particle system that is beeing process in real time. Like in the following image.
