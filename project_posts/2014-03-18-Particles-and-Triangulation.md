@@ -1,4 +1,4 @@
-## Prototype
+## Particles and Triangulation
 
 The antecedent of the project Manifold, comes form a prototype project named Aether.
 
