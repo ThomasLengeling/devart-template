@@ -10,14 +10,14 @@ In the following image all the particles are have a atraction force to the cente
 
 Without the actracting force to the center. A mesh of points
 
-![Example Image](../project_images/particles.png "Mesh")
-
+![Example Image](../project_images/particles-noCenter.png "Mesh")
 
 Once having a real time particle system that has interaction forces like repulsion and attraction the next step is feed the points to a Delaunay triangulation algorithm. The triangulation that i'm using can excute the delaunay triangulation in real time.
 
 ![Example Image](../project_images/manifold-triangulation.png "Triangulation")
 
-In this one all the particle ha
+![Example Image](../project_images/manifold-triangulation.png "Triangulation")
+
 
 The project Aether uses the following tecnique. The final outoup is a canvas that include calculating the Delaunay triangulation that is applied to varios photographic still images thar creates an abstruct sculpt of a 2D mesh. The points obtain from the Delaunay triangulation are feed into a particle system that is beeing process in real time. Like in the following image.
 
