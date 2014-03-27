@@ -15,13 +15,25 @@ https://www.googleapis.com/customsearch/v1?parameters
 ```
 You only need three main information that can be obtrained from the  Custom Search Engine and the Google Cloud Console
 
-- Searh Engine ID
-- A Public API access from the cloud Console
-- Something to Search
+- Searh Engine ID (cx)
+- A Public API access from the cloud Console (key)
+- Something to Search (q)
 
+A Search for Picasso would look like something like this
 
+```html
+https://www.googleapis.com/customsearch/v1?key="YOUR_KEY"&cx="ENGINE_API"&q="picasso&alt=json
+```
 
+More information about all the query parameters 
 
+https://developers.google.com/custom-search/json-api/v1/using_rest
+
+So we want to search only Images with file type .jpg and .png we need the following code.
+
+```html
+https://www.googleapis.com/customsearch/v1?key="YOUR_KEY"&cx="ENGINE_API"&q="picasso"&searchType="image"&fileType="png,jpg"&alt=json
+```
 
 
 Source Custom Search  https://developers.google.com/custom-search/docs/overview
