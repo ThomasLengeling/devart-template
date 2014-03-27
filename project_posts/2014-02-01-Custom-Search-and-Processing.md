@@ -34,11 +34,13 @@ void Search()  throws MalformedURLException, URISyntaxException, IOException {
 ```
 To parse the JSON obtain from the search Google to java objects, there is a open source java library called GSon just for doing that. More about Gson [here](https://code.google.com/p/google-gson/)  
 
-and to get results we just simple interate the GResults class like this
+The Class where GSon is going to parse the date from JSON to java objects is GResults. More information about the class in the gitHub.
 
+The following code just to obtain the data from the search
 ```java
   for (int i=0; i < 10; i++) {
     String path  = results.getLink(i)
   }
 ```
+The String path will contain the path of the image found, so we only need to retrived it with a easy built in funtion from processing. `loadImage(path)`
 
