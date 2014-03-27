@@ -40,6 +40,7 @@ The following code just to obtain the data from the search
 ```java
   for (int i=0; i < 10; i++) {
     String path  = results.getLink(i)
+    loadImage(path);
   }
 ```
 The String path will contain the path of the image found, so we only need to retrived it with a easy built in funtion from processing. `loadImage(path)`
