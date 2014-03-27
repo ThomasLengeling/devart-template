@@ -6,7 +6,7 @@ First I create a dynamic particle system in cinder. The particle system has  sim
 
 In the following image all the particles are have a atraction force to the center of the canvas. But also all the particle have a small repulsion force. This to obtain the collition between each of the particle.
 
-![Example Image](../project_images/particles.png "Particles")
+![Example Image](../project_images/particles01.png "Particles")
 
 Without the actracting force to the center. A mesh of points
 
