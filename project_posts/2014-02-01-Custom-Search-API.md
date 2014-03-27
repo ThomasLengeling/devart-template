@@ -8,12 +8,16 @@ The Custom Search API with JSON / Atom lets you develop applications to retrive 
 
 To create a search is necesarie to create a Custom Search Engine which provies a 100 search queries per day for free. This is only to obtain the API key from the Seatch Engine and use it to create queries in Google Cloud Console.
 
-Once having that done is fearly easy to create custom searches. Th searches can ge obtain using a HTTP GET Request in a URL. Using this reques the output is JSON format.
+Once having that done is fearly easy to create custom searches. Th searches can be obtain using a HTTP GET Request in a URL. Using this type of request the output is a JSON format.
 
 ```html
-https://developers.google.com/custom-search/json-api/v1/using_rest
+https://www.googleapis.com/customsearch/v1?parameters
 ```
+You only need three main information that can be obtrained from the  Custom Search Engine and the Google Cloud Console
 
+- Searh Engine ID
+- A Public API access from the cloud Console
+- Something to Search
 
 
 
