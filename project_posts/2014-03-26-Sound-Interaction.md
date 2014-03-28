@@ -17,7 +17,7 @@ the information is normalized between 0 and 1
 		sender.sendMessage(message);
 ```
 
-![OSC](..\project_images\osc.png "osc")
+![OSC](../project_images/osc.png "osc")
 
 The idea is for the audience to feel deeply inserted into the piece, for that the installation draws attention to lure you in and invites more people to interact together. To make this happend we need perfect syncronization between user interaction, sound and visuals.
 
