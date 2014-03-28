@@ -14,7 +14,9 @@ Without the attracting force to the center. A mesh of points
 
 ![Example Image](../project_images/particles-noCenter.png "Mesh")
 
-Once having a real time particle system that has interaction forces like repulsion and attraction the next step is feed the points to a Delaunay triangulation algorithm. The triangulation that i'm using can execute the Delaunay triangulation in real time.
+Once having a real time particle system that has interaction forces like repulsion and attraction the next step is feed the points to a Delaunay triangulation algorithm. The library for the triangulation is ciTr
+
+The triangulation that i'm using can execute the Delaunay triangulation of more than 3000 points in real time.
 
 ![Example Image](../project_images/manifold-triangulation.png "Triangulation")
 
