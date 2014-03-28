@@ -1,10 +1,10 @@
-Google Custom Search API lets you search the web programmatically via HTTP request. Once making a request is possible to obtain the information in a JSON format.
+Google Custom Search API lets you search the web programmatically via HTTP requests. Once making a request it is possible to obtain the information in a JSON format.
 
-We are going to use processing and some external java libraries to achieve our goal of mining custom images from the web. Java provides a set of libraries that lets you connect via HTTP protocol fairly easy.
+We are going to use Processing and some external Java libraries to achieve our goal of mining custom images from the web. Java provides a set of libraries that lets you easily connect via HTTP protocol.
 
-We start making a simple processing sketch.
+We start by making a simple Processing sketch.
 
-First we import all the java libraries like network communication, exception handling and input/output files.
+First we import all the Java libraries like network communication, exception handling and input/output files.
 
 ```java
 import java.net.*;
@@ -35,7 +35,7 @@ void Search()  throws MalformedURLException, URISyntaxException, IOException {
   conn.disconnect();
 }
 ```
-We need to parse the JSON obtain from the search query to java objects. To do this were going to use GSon, a open source java library. With this library is possible to convert JSON to java objects and vise versa. More about Gson [here](https://code.google.com/p/google-gson/)  
+We need to parse the JSON obtained from the search query to Java objects. To do this, we are going to use GSon, a open source java library. With this library it is possible to convert JSON to java objects and vice-versa. More about Gson [here](https://code.google.com/p/google-gson/)  
 
 We use the following code just to obtain the data from the search result.
 
@@ -45,7 +45,7 @@ We use the following code just to obtain the data from the search result.
     loadImage(path);
   }
 ```
-The String `path` will contain the path of the image found from the query,  we only need to retrieve the `path` of the image, this is because we can use a easy built in function from processing called `loadImage(path)`. This function loads images form any given path, it could be a local path or a URL path.
+The string `path` will contain the path of the image found from the query, we only need to retrieve the `path` of the image, this is because we can use a easy built-in function from processing called `loadImage(path)`. This function loads images from any given path, it could be a local path or a URL path.
 
 ![mining](../project_images/mining.png "processing")
 

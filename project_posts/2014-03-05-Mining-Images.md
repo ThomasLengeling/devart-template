@@ -1,16 +1,16 @@
-Custom Search JSON/Atom API lets you have up to 100 search queries per day for free, and up 100 pages of search of the same querie.
+Custom Search JSON/Atom API lets you have up to 100 search queries per day for free, and up 100 pages of search of the same query.
 
-Some of the queries that were more succsefull in obaning images that could easly be apply to the mesh deformation were.
+Some of the queries that were the more successful in obtaining images that could easily be applyed to the mesh deformation are:
 
 - Nebula
 - Pablo Picasso paintings
 - Terrain NASA
 - Van Gogh paintings
 
-Most of the images that were were looking for were phorographic still pictures with a lot of change of light and colors.
-Some of the seaches needed different parameters in the URL path querie to have a desent image output file. 
+Most of the images that were were looking for were photographic still pictures with a lot of change of light and colors.
+Some of the searches needed different parameters in the URL path query to have a decent image output file. 
 
-Once having obtain a desent amount of images. The images were applyed to mesh that was calculated early back. The triangulated mesh early back is actualy a set of points that are processed into a 2d mesh but with no color. In the following code color is apply to each triangle of the mesh. The function `surfaceColor.getColorPixel(ci::Vec2i)` trows the color of the pixel in that current position.
+Once having obtained a decent amount of images, the images were applyed to a mesh that was calculated earlier. The triangulated mesh is actualy a set of points that are processed into a 2d mesh but with no color. In the following code color is applyed to each triangle of the mesh. The function `surfaceColor.getColorPixel(ci::Vec2i)` throws the color of the pixel in that current position.
 
 ```c
 for(auto it = vAllDelaunayTri.begin(); it != vAllDelaunayTri.end(); ++it){
