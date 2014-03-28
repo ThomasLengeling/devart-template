@@ -3,8 +3,8 @@ Once having most of the visual achived, now goes the interaction with the user. 
 So there are two basic funtions to handle the forces.
 
 ```c
-		particleSystem.addRepulsionForce( posX, posY, radius, force);
-		particleSystem.addAttractionForce( posX, posY, radius, force);
+	particleSystem.addRepulsionForce( posX, posY, radius, force);
+	particleSystem.addAttractionForce( posX, posY, radius, force);
 ```
 
 some of the code for simple mouse interaction
@@ -35,11 +35,15 @@ void ManifoldApp::update()
 Some images of the particle system with a repulsive force with a click and drag of the mouse.
 
 
-![Manifold interaction](../project_images/minifold-move.png "set")
+![Manifold interaction](../project_images/de-particles.png "set")
 
 Now with texture obtain from the mining.
 
 ![Manifold interaction](../project_images/manifol_repulse.png "set")
+
+One with no attraction force in the center.
+
+![Manifold interaction](../project_images/background.png "set")
 
 Now also we add a bloom effect to the particles, we ware able to achive this from a post in the cinder forum
 
