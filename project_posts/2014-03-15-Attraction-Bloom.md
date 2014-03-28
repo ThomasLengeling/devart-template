@@ -35,10 +35,15 @@ void ManifoldApp::update()
 Some images of the particle system with a repulsive force with a click and drag of the mouse.
 
 
+-> ![Manifold interaction](../project_images/minifold-move.png "set") <-
+
 Now with texture obtain from the mining.
 
+![Manifold interaction](../project_images/manifol_repulse.png "set")
 
-Now also we add a bloom effect shader to the particles 
+Now also we add a bloom effect to the particles, we ware able to achive this from a post in the cinder forum
+
+
 
 
 
