@@ -35,7 +35,7 @@ void ManifoldApp::update()
 Some images of the particle system with a repulsive force with a click and drag of the mouse.
 
 
-->![Manifold interaction](../project_images/minifold-move.png "set")<-
+![Manifold interaction](../project_images/minifold-move.png "set")
 
 Now with texture obtain from the mining.
 
