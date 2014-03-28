@@ -38,7 +38,11 @@ for(auto it = vAllDelaunayTri.begin(); it != vAllDelaunayTri.end(); ++it){
 }
 ```
 
+![Example Image](../project_images/mid.png "Particles")
+
 ![Example Image](../project_images/twins.png "Particles")
 
+
+![Example Image](../project_images/six_s.png "Particles")
 
 
