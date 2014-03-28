@@ -1,7 +1,9 @@
 Google Custom Search lets you search the web programmatically via HTTP and giving a JSON output.
-We are going to use processing and some external java libraries. Java provides with a set of libraries that lets you connect to a HTTP protocol fairly easy.
+We are going to use processing and some external java libraries to achieve our goal of mining custom images. Java provides a set of libraries that lets you connect via HTTP protocol fairly easy.
 
-Import the java library, for network comunication, exeption handelling and input/output files.
+We start making a simple processing sketch.
+
+First we import all the java libraries like network communication, exception handling and input/output files.
 
 ```java
 import java.net.*;
@@ -10,7 +12,7 @@ import java.net.URISyntaxException;
 import java.io.Reader.*;
 ```
 
-The information from the search is beeing saved in class called GResults, more about the class check the gitHub link.
+The information from the search result is being saved in class called GResults, more about the class check the gitHub link.
 
 ```java
 void Search()  throws MalformedURLException, URISyntaxException, IOException {
@@ -32,18 +34,19 @@ void Search()  throws MalformedURLException, URISyntaxException, IOException {
   conn.disconnect();
 }
 ```
-To parse the JSON obtain from the search Google to java objects, there is a open source java library called GSon just for doing that. More about Gson [here](https://code.google.com/p/google-gson/)  
+We need to parse the JSON obtain from the search query to java objects. To do this were going to use GSon, a open source java library. With this library is possible to convert JSON to java objects and vise versa. More about Gson [here](https://code.google.com/p/google-gson/)  
 
-The Class where GSon is going to parse the date from JSON to java objects is GResults. More information about the class in the gitHub.
+We use the following code just to obtain the data from the search result.
 
-The following code just to obtain the data from the search
 ```java
   for (int i=0; i < 10; i++) {
     String path  = results.getLink(i)
     loadImage(path);
   }
 ```
-The String path will contain the path of the image found, so we only need to retrived it with a easy built in funtion from processing. `loadImage(path)`
+The String `path` will contain the path of the image found from the query,  we only need to retrieve the `path` of the image, this is because we can use a easy built in function from processing called `loadImage(path)`. This function loads images form any given path, it could be a local path or a URL path.
+
+![mining](../project_images/mining.png "processing")
 
 
-The whole project is located on [github CustomSearchJSON](https://github.com/ThomasLengeling/Processing-Sketch) 
+The whole project is located on [github CustomSearchJSON](https://github.com/ThomasLengeling/Processing-Sketch)
