@@ -1,12 +1,12 @@
 #Audio.
 
-The audio for the installation is being develop using supercollider.
+The audio for the installation is being developped using supercollider.
 
-To achieve audio-reactive visuals were going use a library that i'm current colaborating [MIDetectorOSC](https://github.com/beangoben/MIDetectorOSC), which sends musical information to other applications via OSC messages. This is very useful to allow perfect real-time synchronization between audio and video.
+To achieve audio-reactive visuals we are going to use a library in which I'm current collaborating [MIDetectorOSC](https://github.com/beangoben/MIDetectorOSC), which sends musical information to other applications via OSC messages. This is very useful to allow perfect real-time synchronization between audio and video.
 
-Each time there is interaction with the visuals a OSC message is send to supercollider.
+Each time there is interaction with the visuals an OSC message is sent to supercollider.
 
-the information is normalized between 0 and 1
+The information is normalized between 0 and 1
 ```c
 		osc::Message message;
 		message.addFloatArg( lmap<float>(posx, 0, width, 0.0f, 1.0f) );
@@ -19,7 +19,7 @@ the information is normalized between 0 and 1
 
 ![OSC](../project_images/osc.png "osc")
 
-Simple SynthDef and OSCresponder in SuperCollider that react with incoming three parametrs described in previous image.
+Simple SynthDef and OSCresponder in SuperCollider react with the incoming three parameters described in the previous image.
 
 ```sc
 ~google= Synth(\google);
@@ -36,8 +36,8 @@ o= OSCresponder(nil,"/point1", {|...handr|
  
 }).add;
 ```
-The idea is for the audience to feel deeply inserted into the piece, for that the installation draws attention to lure you in and invites more people to interact together. To make this happend we need perfect syncronization between user interaction, sound and visuals.
+The idea is to get the audience deeply inserted into the piece, for that the installation draws attention to lure you in and invites more people to interact together. To make this happen, we need perfect synchronization between user interaction, sound and visuals.
 
 
-Video with audio interacction.
+Video with audio interaction.
 
