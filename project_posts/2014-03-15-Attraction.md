@@ -1,4 +1,4 @@
-Once having the particle system, Delaunay triangulation and images for the search working simultaneously, we need to be able to interact with the output mesh in real time. As we know the particle system has two type of forces that can be applied, repulsion and attraction.  We are going to use the attraction as the main interaction with the user.  This is because it alters dynamically all the particles of the system really nicely. It also changes the topology of the mesh and the diferent viewpoints that could represent.
+Once having the particle system, Delaunay triangulation and the images for the search working simultaneously, we need to be able to interact with the output mesh in real time. As we know the particle system has two type of forces that can be applied, repulsion and attraction.  We are going to use the attraction as the main interaction with the user.  This is because it alters dynamically all the particles of the system really nicely. It also changes the continuously the topology of the mesh.
 
 So there are two basic functions to handle the forces.
 
@@ -45,9 +45,7 @@ One with no attraction force in the center.
 
 Those images are exposed into a abstract triangulated form which we want the user to be able to manipulate in real time  through hand gestures.
 
-
 The output is the same object viewed in different perspectives.
-
 
 
 
