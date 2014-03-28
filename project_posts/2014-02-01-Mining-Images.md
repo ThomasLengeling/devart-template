@@ -13,29 +13,29 @@ Some of the seaches needed different parameters in the URL path querie to have a
 Once having obtain a desent amount of images. The images were applyed to mesh that was calculated early back. The triangulated mesh early back is actualy a set of points that are processed into a 2d mesh but with no color. In the following code color is apply to each triangle of the mesh. The function `surfaceColor.getColorPixel(ci::Vec2i)` trows the color of the pixel in that current position.
 
 ```c
-		for(auto it = vAllDelaunayTri.begin(); it != vAllDelaunayTri.end(); ++it){
-			Triangle2* t(*it);
-			Point2 * p1 = t->getCorner(0);
-			Point2 * p2 = t->getCorner(1);
-			Point2 * p3 = t->getCorner(2);
+for(auto it = vAllDelaunayTri.begin(); it != vAllDelaunayTri.end(); ++it){
+	Triangle2* t(*it);
+	Point2 * p1 = t->getCorner(0);
+	Point2 * p2 = t->getCorner(1);
+	Point2 * p3 = t->getCorner(2);
 
-			ci::Vec2i center = ci::Vec2i((int)p1->x(), (int)p1->y())/3.0f + 
-							   ci::Vec2i((int)p2->x(), (int)p2->y())/3.0f +
-							   ci::Vec2i((int)p3->x(), (int)p3->y())/3.0f;
+	ci::Vec2i center = ci::Vec2i((int)p1->x(), (int)p1->y())/3.0f + 
+			   ci::Vec2i((int)p2->x(), (int)p2->y())/3.0f +
+			   ci::Vec2i((int)p3->x(), (int)p3->y())/3.0f;
 
-			ci::ColorA col = surfaceColor.getColorPixel(center);
+	ci::ColorA col = surfaceColor.getColorPixel(center);
 
-			mMesh.appendVertex( ci::Vec2f(p1->x(), p1->y()) );
-			mMesh.appendColorRgba(col);
+	mMesh.appendVertex( ci::Vec2f(p1->x(), p1->y()) );
+	mMesh.appendColorRgba(col);
 
-			mMesh.appendVertex( ci::Vec2f(p2->x(), p2->y()) );
-			mMesh.appendColorRgba(col);
+	mMesh.appendVertex( ci::Vec2f(p2->x(), p2->y()) );
+	mMesh.appendColorRgba(col);
 
-			mMesh.appendVertex( ci::Vec2f(p3->x(), p3->y()));
-			mMesh.appendColorRgba(col);
+	mMesh.appendVertex( ci::Vec2f(p3->x(), p3->y()));
+	mMesh.appendColorRgba(col);
 
-			mMesh.appendTriangle( mMesh.getVertices().size() - 3, mMesh.getVertices().size() - 2, mMesh.getVertices().size() - 1 );
-		}
+	mMesh.appendTriangle( mMesh.getVertices().size()-3, mMesh.getVertices().size()-2, mMesh.getVertices().size()-1 );
+}
 ```
 
 ![Example Image](../project_images/twins.png "Particles")
