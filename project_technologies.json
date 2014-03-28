@@ -7,7 +7,7 @@
             "Windows"
         ],
         "toolkits": [
-            "Cinder", "Processing"
+            "Cinder", "Processing", "supercollider"
         ],
         "languages":[
             "c++", "java"
