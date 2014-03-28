@@ -2,7 +2,7 @@
 
 The antecedent of the project Manifold, comes form a prototype project named Aether.
 
-First we are going to develop a dynamic particle system in cinder. The particle system has simple interaction forces like repulsion and attraction. But also the particle are render in real time for continues interaction with the user and the sound. Because we need the particle system to be render in real time we going to use Euler Integration to solve the particles positions. Eulers Integration is the fastes method of solving particles positions but not numerical acurrent or presice as the Runge Kutta method.
+First we are going to develop a dynamic particle system in cinder. The particle system has simple interaction forces like repulsion and attraction. But also the particle are render in real time for continues interaction with the user and the sound. Because we need the particle system to be render in real time we going to use Euler Integration to solve the particles positions. Eulers Integration is the fastest method of solving particles positions but not numerical precise as the Runge Kutta method.
 
 We start programming a particle system similar to Memo Akten's MSAPhysics and Daniel Shiffman Particle System. 
 
@@ -24,7 +24,7 @@ The triangulation that we used can execute the Delaunay triangulation of more th
 
 ![Example Image](../project_images/mesh.png "Triangulation")
 
-The final output is a mesh of points draw on a canvas. The canvas includes calculating the Delaunay triangulation of a set of points that behave acordinate to a physics simulation.
+The final output is a mesh of points draw on a canvas. The canvas includes calculating the Delaunay triangulation of a set of points that behave in accordance with the physics simulation.
 
 The ideas is to use the Custom Search API from google to obtain many images as possible and feed this images to the triangulated mesh. The images will only provide the color for each triangle of the mesh. This still images come to life with the hand movement of the participants.
 
