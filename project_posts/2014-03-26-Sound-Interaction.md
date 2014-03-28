@@ -19,5 +19,25 @@ the information is normalized between 0 and 1
 
 ![OSC](../project_images/osc.png "osc")
 
+Simple SynthDef and OSCresponder in SuperCollider that react with incoming three parametrs described in previous image.
+
+```sc
+~google= Synth(\google);
+ 
+(
+o= OSCresponder(nil,"/point1", {|...handr|
+   ~equis= handr[2][1];
+   ~ye= handr[2][2];
+   ~densidad= handr[2][3];
+ 
+   ~google.set(\equis, ~equis.linlin(0,1,100,1000));
+   ~google.set(\ye, ~ye.linlin(0,1,0.1,7));
+   ~google.set(\densidad, ~ye.linlin(0,1,0.05,25.00));
+ 
+}).add;
+```
 The idea is for the audience to feel deeply inserted into the piece, for that the installation draws attention to lure you in and invites more people to interact together. To make this happend we need perfect syncronization between user interaction, sound and visuals.
+
+
+Video with audio interacction.
 
