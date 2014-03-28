@@ -5,7 +5,7 @@ Some of the queries that were more succsefull in obaning images that could easly
 - Nebula
 - Pablo Picasso paintings
 - Terrain NASA
-- Delaunay painting
+- Van Gogh paintings
 
 Most of the images that were were looking for were phorographic still pictures with a lot of change of light and colors.
 Some of the seaches needed different parameters in the URL path querie to have a desent image output file. 
