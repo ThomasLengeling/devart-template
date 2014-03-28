@@ -39,5 +39,3 @@ o= OSCresponder(nil,"/point1", {|...handr|
 The idea is to get the audience deeply inserted into the piece, for that the installation draws attention to lure you in and invites more people to interact together. To make this happen, we need perfect synchronization between user interaction, sound and visuals.
 
 
-Video with audio interaction.
-
