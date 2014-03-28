@@ -1,5 +1,6 @@
-Google Custom Search lets you search the web programmatically via HTTP and giving a JSON output.
-We are going to use processing and some external java libraries to achieve our goal of mining custom images. Java provides a set of libraries that lets you connect via HTTP protocol fairly easy.
+Google Custom Search API lets you search the web programmatically via HTTP request. Once making a request is possible to obtain the information in a JSON format.
+
+We are going to use processing and some external java libraries to achieve our goal of mining custom images from the web. Java provides a set of libraries that lets you connect via HTTP protocol fairly easy.
 
 We start making a simple processing sketch.
 
