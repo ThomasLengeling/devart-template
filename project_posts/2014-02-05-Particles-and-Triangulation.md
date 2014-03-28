@@ -2,11 +2,12 @@
 
 The antecedent of the project Manifold, comes form a prototype project named Aether.
 
-To create the visual I'm going to explain how the magic is done.
+First we are going to develop a dynamic particle system in cinder. The particle system has simple interaction forces like repulsion and attraction. But also the particle are render in real time for continues interaction with the user and the sound. Because we need the particle system to be render in real time we going to use Euler Integration to solve the particles positions. Eulers Integration is the fastes method of solving particles positions but not numerical acurrent or presice as the Runge Kutta method.
 
-First I create a dynamic particle system in cinder. The particle system has simple interaction forces like repulsion and attraction.
+We start programming a particle system similar to Memo Akten's MSAPhysics and Daniel Shiffman Particle System. 
 
-In the following image all the particles are have a attraction force to the center of the canvas. But also all the particle have a small repulsion force. This to have the collision between each of the particle work.
+Some results after developing the system.
+In the following image all the particles have a attraction force to the center. But also all the particle have a small repulsion force. This to have the collision between each of the particle work.
 
 ![Example Image](../project_images/particles01.png "Particles")
 
@@ -14,7 +15,9 @@ Without the attracting force to the center. A mesh of points
 
 ![Example Image](../project_images/particles-noCenter.png "Mesh")
 
-Once having a real time particle system that has interaction forces like repulsion and attraction the next step is feed the points to a Delaunay triangulation algorithm. The library for the triangulation is ciTr
+Once having a real time particle system that has interaction forces like repulsion and attraction the next step is feed the points to a Delaunay triangulation algorithm.
+
+We tryed many Delaunay triangulations that are available in the web like polyTri, s-hull, built in cinder triangulation and triangle. The one that worked best for us was triangle [triangle](http://www.cs.cmu.edu/~quake/triangle.html)
 
 The triangulation that i'm using can execute the Delaunay triangulation of more than 3000 points in real time.
 
