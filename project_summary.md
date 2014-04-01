@@ -3,12 +3,7 @@
 
 ## Authors
 - Main developer: Thomas Sanchez Lengeling.
-- Audio Programming and Visual Design: ￼Rodrigo Guzmán Cázar
-- Audio: Alejandro Franco
-- Technology Adviser: Eduardo H Obieta.
 - Multitouch Hardware: Gilberto Castro.
-- Illustration Ana Karen G Barajas
-- Adviser Bruce Lane
 
 ## Description
 
